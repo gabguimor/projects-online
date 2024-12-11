@@ -54,7 +54,6 @@ ul {
 
 .links {
   text-decoration: none;
-
   color: #ffffff;
   cursor: pointer;
 }
@@ -148,7 +147,6 @@ body {
   margin-bottom: 1.1rem;
   font-family: "Krona One", sans-serif;
   cursor: pointer;
-  transition: font 0.1s;
 }
 .login-btn:hover {
   font-size: large;
@@ -167,19 +165,11 @@ body {
   border: none;
   background-color: #1e7a9b;
   border-radius: 0.6rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: "Krona One", sans-serif;
   margin-bottom: 2.2rem;
   color: #ffffff;
   cursor: pointer;
-  transition: font 0.1s;
-}
-.offline-btn:hover {
-  font-size: 1.5rem;
-}
-footer {
-  display: none;
-  visibility: hidden;
 }
 
 @media (min-width: 1085px) {
@@ -217,22 +207,5 @@ footer {
   header ul {
     font-size: 2rem;
     gap: 5rem;
-  }
-  footer {
-    display: flex;
-    visibility: visible;
-    flex-direction: column;
-    list-style: none;
-    color: #ffffff;
-    font-size: 1.5rem;
-    margin-top: 7rem;
-  }
-  .footer-icons {
-    justify-content: space-around;
-    font-size: 3rem;
-    gap: 6rem;
-  }
-  .footer-info {
-    gap: 6rem;
   }
 }
