@@ -37,11 +37,13 @@ html {
   gap: 1rem;
 }
 
+
 .content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin: 0 15% auto;
+  margin: auto 15%;
   background-color: var(--black-50);
   border-radius: 0.8rem;
 }
@@ -119,7 +121,7 @@ html {
   border-radius: 0.6rem;
   padding: 0.5rem 3rem;
   font-size: 1.2rem;
-  margin-top: 3rem;
+  margin: 3rem auto;
   cursor: pointer;
 }
 .back-btn:hover {
@@ -131,8 +133,9 @@ a {
   color: white;
 }
 
-@media (min-width: 950px) {
+@media (min-width: 1000px) {
   .content {
     margin: auto 35%;
   }
+ 
 }
